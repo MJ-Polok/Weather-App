@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 400px;
+    height: 570px;
+    background-color: grey;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.srcSction {
+    display: flex;
+    height: 45px;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.lctionBx {
+    width: 70%;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.lctionBx:focus {
+    outline: none;
+}
+
+.srcBtn,
+.srcLction {
+    width: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+}
+
+
+.wthrIcns {
+    padding: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.wthrIcns .wIcn {
+    width: 13rem;
+}
+
+.details {
+    padding: 30px 30px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.temp {
+    text-align: center;
+}
+
+.ctnm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ctnm h1 {
+    line-height: 0.9;
+}
+
+.humdtWind {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.humdt,
+.wind {
+    display: flex;
+}
+
+.humdt h1 {
+    margin-top: 10px;
+}
+
+.hmdtIcn {
+    width: 70px;
+    height: 70px;
+}
+
+.wndIcn {
+    width: 70px;
+    height: 65px;
+}
+
+.hIcnTxt,
+.wIcnTxt h3 {
+    line-height: 0;
+}
+
+.wIcnTxt h2 {
+    line-height: normal;
+    margin-left: 10px;
+
+
+}
+
+
+.wIcnTxt {
+    display: flex;
+    align-items: center;
+}
+
+.wind {
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+}
+
+.wind h2 {
+    line-height: 0.7;
+}
+
+.mainBox {
+    height: 100%;
+    width: 100%;
+    filter: blur(5px);
+}
+.cntry{
+    margin-top: 10px;
+    line-height: 0.9;
+}
+
+
+@media (width < 428px) {
+    body {
+        background-color: black;
+        padding: 0 20px;
+    }
+
+    .box {
+        width: 300px;
+        padding: 25px;
+        height: 510px;
+    }
+
+    .lctionBx {
+        width: 62%;
+    }
+
+    .wthrIcns .wIcn {
+        width: 13rem;
+    }
+
+    .details {
+        padding: 20px;
+    }
+
+    .humdtWind {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .clcas,
+    .frhnt,
+    .ctName,
+    .hmdtnm {
+        font-size: 25px;
+    }
+
+    .wnm,
+    .wnmbr {
+        font-size: 17px;
+    }
+
+    .wndIcn,
+    .hmdtIcn {
+        height: 55px;
+        width: 55px;
+    }
+}

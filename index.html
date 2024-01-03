@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="srcSction">
+            <input class="lctionBx" type="search" placeholder="Enter the city name" />
+            <button class="srcBtn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="srcLction" type="button"><i class="fa-solid fa-location-crosshairs"></i></button>
+        </div>
+        <div class="mainBox">
+            <div class="wthrIcns">
+                <img class="wIcn" src="weatherIcons/clouds.png" alt="Weather Image">
+                <h2 class="wIcnNm">Clouds</h2>
+            </div>
+            <div class="details">
+                <div class="temp">
+                    <h1 class="clcas"><span class="clcasNum">0.0</span>°C</h1>
+                    <h1 class="frhnt"><span class="frhntNum">0.0</span>°F</h1>
+                </div>
+                <div class="ctnm">
+                    <p>City Name</p>
+                    <h1 class="ctName">XXXXXXX</h1>
+                    <br>
+                    <p class="cntry" >Country Name</p>
+                    <h3 class="cntrName">XXXXXXX</h3>
+                </div>
+            </div>
+            <div class="humdtWind">
+                <div class="humdt">
+                    <div class="hIcnTxt">
+                        <img class="hmdtIcn" src="weatherIcons/humidity.png" alt="Weather Image">
+                        <h3>Humidity</h3>
+                    </div>
+                    <h1 class="hmdtnm"><span class="hmdtNum">0</span>%</h1>
+                </div>
+                <div class="wind">
+                    <div class="wIcnTxt">
+                        <img class="wndIcn" src="weatherIcons/wind.png" alt="Weather Image">
+                        <h2 class="wnm">Wind</h2>
+                    </div>
+                    <h2 class="wnmbr"><span class="windNum">0.00</span> km/h</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
